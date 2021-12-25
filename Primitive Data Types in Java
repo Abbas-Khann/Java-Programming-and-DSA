@@ -1,0 +1,12 @@
+import java.util.Scanner;
+//Primitive Data types are those in which further subdivision is not possible
+public class PrimitiveDT {
+    public static void main(String[] args) {
+        int Integer = 64;
+        float GhatNum = 23.2f;
+        double NorGhatNum = 1231244.123142;
+        long LargerInteger = 12314124L;
+        char character = 'c';
+        System.out.println(character);
+    }
+}
