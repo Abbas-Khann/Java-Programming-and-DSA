@@ -1,0 +1,12 @@
+
+public class HelloJava {
+    public static void main (String [] args){
+    Scanner input = new Scanner(System.in);   //Taking Input
+        System.out.print("Enter the temperature in Celsius ");
+       Float tempC;
+       tempC = input.nextFloat();
+       Float tempF;
+       tempF = (tempC * 9/5) + 32;
+        System.out.println("The temperature in Fahrenheit is " + tempF);
+    }
+}
